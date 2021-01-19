@@ -91,7 +91,7 @@
       }
 
       &.active > a {
-        color: yellow;
+        color: $text-color2;
       }
     }
 
@@ -104,7 +104,7 @@
       @include transition-ease;
 
       &:hover {
-        color: yellow;
+        color: $text-color2;
       }
     }
   }

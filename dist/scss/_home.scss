@@ -1,0 +1,20 @@
+.home {
+  height: 100vh;
+  width: auto;
+  padding-top: 35vh;
+  align-items: center;
+  text-align: center;
+  background:
+    url('../image/image1.jpg') center top;
+  background-size: auto;
+
+  h1 {
+    font-size: 100px;
+    color: $text-color2;
+  }
+  h2 {
+    font-size: 36px;
+
+  }
+}
+

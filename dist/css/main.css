@@ -124,7 +124,7 @@
 }
 
 .nav .menu-nav_item.active > a {
-  color: yellow;
+  color: #673f74;
 }
 
 .nav .menu-nav_link {
@@ -138,7 +138,7 @@
 }
 
 .nav .menu-nav_link:hover {
-  color: yellow;
+  color: #673f74;
 }
 
 .menu-nav_item:nth-child(1) {
@@ -161,9 +161,31 @@
           transition-delay: 0.75s;
 }
 
+.home {
+  height: 100vh;
+  width: auto;
+  padding-top: 35vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: url("../image/image1.jpg") center top;
+  background-size: auto;
+}
+
+.home h1 {
+  font-size: 100px;
+  color: #673f74;
+}
+
+.home h2 {
+  font-size: 36px;
+}
+
 body {
-  width: 1440px;
+  width: auto;
   color: #e1e1e1;
+  font-family: Raleway;
 }
 
 a.menu-nav_link {
